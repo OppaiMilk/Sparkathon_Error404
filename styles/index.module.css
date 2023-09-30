@@ -1,0 +1,819 @@
+.homePageChild {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    background: linear-gradient(113.49deg, #984d38, #181e41 63.29%);
+    width: 1440px;
+    height: 3937px;
+}
+.homePageItem {
+    position: absolute;
+    top: 122px;
+    left: 870px;
+    border-radius: 10px;
+    background-color: rgba(162, 105, 255, 0.1);
+    backdrop-filter: blur(232px);
+    width: 469px;
+    height: 584px;
+}
+.solanaSolLogo1Icon1 {
+    position: absolute;
+    top: 623px;
+    left: 1179px;
+    width: 29.04px;
+    height: 36px;
+    object-fit: cover;
+}
+.sol331 {
+    position: absolute;
+    top: 629px;
+    left: 1218px;
+    font-size: 18px;
+    font-family: Orbitron;
+}
+.groupChild {
+    position: absolute;
+    top: -2px;
+    left: -0.5px;
+    width: 120px;
+    height: 33.5px;
+}
+.b {
+    position: absolute;
+    top: 10px;
+    left: 42px;
+    opacity: 0.5;
+}
+.vectorParent {
+    position: absolute;
+    top: 150px;
+    left: 1038px;
+    width: 119px;
+    height: 31px;
+    font-size: 14px;
+    font-family: Orbitron;
+}
+.tetrasolanaAllRights {
+    position: absolute;
+    top: 3838px;
+    left: 534px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+}
+.homeChild {
+    position: absolute;
+    top: 9px;
+    left: 606px;
+    background-color: #c4c4c4;
+    width: 591px;
+    height: 517px;
+    display: none;
+}
+.k {
+    position: absolute;
+    top: 0px;
+    left: 8px;
+}
+.artworks {
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+}
+.kParent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 88px;
+    height: 75px;
+}
+.k1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.artists {
+    position: absolute;
+    top: 45px;
+    left: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+}
+.kGroup {
+    position: absolute;
+    top: 0px;
+    left: 199px;
+    width: 75px;
+    height: 75px;
+}
+.k2 {
+    position: absolute;
+    top: 0px;
+    left: 13px;
+}
+.kContainer {
+    position: absolute;
+    top: 0px;
+    left: 385px;
+    width: 102px;
+    height: 75px;
+}
+.groupParent {
+    position: absolute;
+    top: 407px;
+    left: 2px;
+    width: 487px;
+    height: 75px;
+}
+.experienceTheClassic1 {
+    position: absolute;
+    top: 190px;
+    left: 0px;
+    line-height: 180%;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    width: 721px;
+}
+.playEarn1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 50px;
+    line-height: 120%;
+    display: inline-block;
+    width: 490px;
+}
+.exploreNow {
+    position: relative;
+    font-weight: 500;
+}
+.exploreNowWrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background: linear-gradient(214.02deg, #b75cff, #671ae4);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.sellNftWrapper {
+    position: absolute;
+    top: 0px;
+    left: 181px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.action {
+    position: absolute;
+    top: 317px;
+    left: 0px;
+    width: 298px;
+    height: 50px;
+}
+.desc {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 721px;
+    height: 367px;
+    font-size: 20px;
+}
+.heroleft {
+    position: absolute;
+    top: 31px;
+    left: 0px;
+    width: 721px;
+    height: 482px;
+}
+.icon {
+    position: absolute;
+    top: 0px;
+    left: 766px;
+    width: 434px;
+    height: 478px;
+    object-fit: cover;
+}
+.home {
+    position: absolute;
+    top: 171px;
+    left: 122px;
+    width: 1200px;
+    height: 513px;
+    font-size: 30px;
+}
+.selectWalletWrapper {
+    border-radius: 10px;
+    background: linear-gradient(214.02deg, #b75cff, #671ae4);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.groupItem {
+    position: absolute;
+    top: 0px;
+    left: 12.29px;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 20.48px;
+    height: 20.63px;
+}
+.groupInner {
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    background-color: #fff;
+    width: 43px;
+    height: 10px;
+}
+.ellipseParent {
+    position: relative;
+    width: 43px;
+    height: 36px;
+}
+.marketplaceParent {
+    position: absolute;
+    top: 0px;
+    left: 656px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 40px;
+}
+.so {
+    background: linear-gradient(214.02deg, #b75cff, #671ae4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.tetrasolana {
+    position: absolute;
+    top: 16px;
+    left: 0px;
+    font-size: 25px;
+}
+.searchChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 391px;
+    height: 50px;
+}
+.searchIcon1 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.searchParent {
+    position: absolute;
+    top: 10px;
+    left: 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.search {
+    position: absolute;
+    top: 10px;
+    left: 195px;
+    width: 391px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.header {
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    width: 1280px;
+    height: 70px;
+}
+.exploreMarketplace {
+    position: absolute;
+    top: 0px;
+    left: 283px;
+}
+.exploreAWorld1 {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    display: inline-block;
+    width: 987px;
+}
+.title {
+    position: absolute;
+    top: 0px;
+    left: 138px;
+    width: 987px;
+    height: 120px;
+    font-family: Poppins;
+}
+.conectWalletWrapper {
+    position: absolute;
+    top: 1138px;
+    left: 570px;
+    border-radius: 27.75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 32px;
+    font-size: 17.76px;
+}
+.frameChild {
+    position: relative;
+    border-radius: 14.01px;
+    width: 276px;
+    height: 307px;
+    object-fit: cover;
+}
+.cardUnClickInner {
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.inceptionWrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 15px;
+}
+.loidonsaf {
+    position: relative;
+}
+.loidonsafWrapper {
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 15px;
+    opacity: 0.4;
+    font-size: 12px;
+}
+.eth {
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(97.86deg, #ff8d8d, #f7fc0e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 87px;
+    height: 22px;
+    flex-shrink: 0;
+}
+.ethWrapper {
+    position: absolute;
+    top: 3px;
+    left: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 15px;
+}
+.frameParent {
+    position: relative;
+    width: 277px;
+    height: 50px;
+}
+.cardUnClick {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 10px 20px;
+    gap: 27px;
+}
+.cardUnClick1 {
+    position: absolute;
+    top: 480px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 10px 20px;
+    gap: 27px;
+}
+.cardUnClick2 {
+    position: absolute;
+    top: 481px;
+    left: 322px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 10px 20px;
+    gap: 27px;
+}
+.cardUnClick3 {
+    position: absolute;
+    top: 479px;
+    left: 645px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 10px 20px;
+    gap: 27px;
+}
+.cardUnClick4 {
+    position: absolute;
+    top: 0px;
+    left: 645px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 10px 20px;
+    gap: 27px;
+}
+.cardUnClick5 {
+    position: absolute;
+    top: 1px;
+    left: 967px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 10px 20px;
+    gap: 27px;
+}
+.cardUnClick6 {
+    position: absolute;
+    top: 480px;
+    left: 967px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 10px 20px;
+    gap: 27px;
+}
+.cardUnClick7 {
+    position: absolute;
+    top: 1px;
+    left: 323px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 10px 20px;
+    gap: 27px;
+}
+.cardUnClickParent {
+    position: absolute;
+    top: 201px;
+    left: 0px;
+    width: 1264px;
+    height: 906px;
+    font-size: 24px;
+}
+.marketplcae {
+    position: absolute;
+    top: 1070px;
+    left: 88px;
+    width: 1264px;
+    height: 1183px;
+    font-size: 40px;
+    font-family: Roboto;
+}
+.frequentlyAskedQuestion1 {
+    position: relative;
+    line-height: 180%;
+    display: inline-block;
+    width: 834px;
+}
+.wannaAskSomething1 {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+.frequentlyAskedQuestionParent {
+    position: absolute;
+    top: 0px;
+    left: 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.div {
+    position: absolute;
+    top: 0px;
+    left: 1149px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 36px;
+    height: 60px;
+}
+.lineDiv {
+    position: absolute;
+    top: 59.5px;
+    left: -0.5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    width: 1183.59px;
+    height: 1px;
+}
+.parent {
+    position: relative;
+    width: 1185px;
+    height: 60px;
+}
+.isThisTetrasolana {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 1019px;
+    height: 60px;
+}
+.groupParent1 {
+    position: absolute;
+    top: 136px;
+    left: 0px;
+    height: 493px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    text-align: left;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.faq1 {
+    position: absolute;
+    top: 2370px;
+    left: 134px;
+    width: 1185px;
+    height: 629px;
+    text-align: center;
+    font-size: 40px;
+}
+.sponsoredIcon {
+    position: absolute;
+    top: 847px;
+    left: 115px;
+    width: 1203.54px;
+    height: 60px;
+}
+.ctaChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background: linear-gradient(214.02deg, #b75cff, #671ae4);
+    width: 1197px;
+    height: 320px;
+}
+.ourNft {
+    margin: 0;
+}
+.getReadyToContainer {
+    position: absolute;
+    top: 50px;
+    left: 349px;
+}
+.getStartedWrapper {
+    position: absolute;
+    top: 220px;
+    left: 521px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 20px;
+}
+.cta {
+    position: absolute;
+    top: 3113px;
+    left: 134px;
+    width: 1197px;
+    height: 320px;
+    text-align: center;
+    font-size: 50px;
+}
+.about {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    width: 69.2px;
+}
+.product {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 64.81px;
+}
+.resource {
+    position: absolute;
+    top: 93px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 77.99px;
+}
+.termCondition1 {
+    position: absolute;
+    top: 136px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 146.09px;
+}
+.faq2 {
+    position: absolute;
+    top: 179px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 32.95px;
+}
+.aboutParent {
+    position: absolute;
+    top: 2px;
+    left: 662.33px;
+    width: 146.09px;
+    height: 202px;
+}
+.theBestNft {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 316.34px;
+}
+.tetrasolana1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+    width: 177.94px;
+    color: #fff;
+}
+.theBestNftMarketplaceWebsiParent {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 316.34px;
+    height: 119px;
+}
+.contact {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    width: 92.26px;
+}
+.div6 {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 114.23px;
+}
+.tetrasolanagmailcom {
+    position: absolute;
+    top: 93px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 203.2px;
+}
+.youtubeIcon1 {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.youtubeParent {
+    position: absolute;
+    top: 136px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.contactParent {
+    position: absolute;
+    top: 0px;
+    left: 957.8px;
+    width: 203.2px;
+    height: 161px;
+}
+.footer {
+    position: absolute;
+    top: 3547px;
+    left: 134px;
+    width: 1161px;
+    height: 204px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.homePageInner {
+    position: absolute;
+    top: 1491px;
+    left: 22px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.homePage {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 3938px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: Poppins;
+}
+

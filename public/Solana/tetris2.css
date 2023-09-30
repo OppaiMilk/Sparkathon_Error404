@@ -1,0 +1,48 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image:url('2.jpg');
+    background-size:cover;
+
+}
+
+.scoreboard {
+    max-width: 600px;
+    margin: 0 auto;
+   	background-image:url('images (1).png');
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #6c25be;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:#FFFFFF
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ddd;
+}

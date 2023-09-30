@@ -1,0 +1,12 @@
+.tetrasolana {
+    position: absolute;
+    top: 16px;
+    left: 0px;
+    font-size: 25px;
+}
+
+.so {
+    background: linear-gradient(214.02deg, #b75cff, #671ae4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,622 @@
+.profilInfoChild {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    background: linear-gradient(113.49deg, #984d38, #181e41 63.29%);
+    width: 1440px;
+    height: 1860px;
+}
+.tetrasolanaAllRights {
+    position: absolute;
+    top: 1727px;
+    left: 544px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+}
+.marketplace {
+    position: relative;
+}
+.game {
+    position: relative;
+    font-weight: 500;
+}
+.selectWalletWrapper {
+    border-radius: 10px;
+    background: linear-gradient(214.02deg, #b75cff, #671ae4);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.marketplaceParent {
+    position: absolute;
+    top: 0px;
+    left: 656px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 40px;
+}
+.so {
+    background: linear-gradient(214.02deg, #b75cff, #671ae4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.tetrasolana {
+    position: absolute;
+    top: 16px;
+    left: 0px;
+    font-size: 25px;
+}
+.searchChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 384px;
+    height: 50px;
+}
+.searchIcon1 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.searchParent {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.search {
+    position: absolute;
+    top: 10px;
+    left: 202px;
+    width: 384px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.header {
+    position: absolute;
+    top: 10px;
+    left: 122px;
+    width: 1201px;
+    height: 70px;
+}
+.about {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    width: 69.2px;
+}
+.product {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 64.81px;
+}
+.resource {
+    position: absolute;
+    top: 93px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 77.99px;
+}
+.termCondition1 {
+    position: absolute;
+    top: 136px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 146.09px;
+}
+.faq1 {
+    position: absolute;
+    top: 179px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 32.95px;
+}
+.aboutParent {
+    position: absolute;
+    top: 2px;
+    left: 662.33px;
+    width: 146.09px;
+    height: 202px;
+}
+.theBestNft {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 316.34px;
+}
+.tetrasolana1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+    width: 177.94px;
+    color: #fff;
+}
+.theBestNftMarketplaceWebsiParent {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 316.34px;
+    height: 119px;
+}
+.contact {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    width: 92.26px;
+}
+.div {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 114.23px;
+}
+.tetrasolanagmailcom {
+    position: absolute;
+    top: 93px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 203.2px;
+}
+.youtubeIcon1 {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.youtubeParent {
+    position: absolute;
+    top: 136px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.contactParent {
+    position: absolute;
+    top: 0px;
+    left: 957.8px;
+    width: 203.2px;
+    height: 161px;
+}
+.footer {
+    position: absolute;
+    top: 1425px;
+    left: 139px;
+    width: 1161px;
+    height: 204px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.profilInfoItem {
+    position: absolute;
+    top: 1491px;
+    left: 22px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 12.29px;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 20.48px;
+    height: 20.63px;
+}
+.groupItem {
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    background-color: #fff;
+    width: 43px;
+    height: 10px;
+}
+.ellipseParent {
+    position: absolute;
+    top: 27px;
+    left: 1332px;
+    width: 43px;
+    height: 36px;
+}
+.cardClick1 {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    width: 1281px;
+    height: 266px;
+    z-index: 0;
+}
+.profilePictureIcon {
+    position: relative;
+    border-radius: 50%;
+    width: 172px;
+    height: 163px;
+    object-fit: cover;
+}
+.vanDarkholmeWrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 383.38px;
+    height: 34.2px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.loidonsafWrapper {
+    position: absolute;
+    top: 52px;
+    left: 5px;
+    width: 182.66px;
+    height: 15.96px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    opacity: 0.4;
+    font-size: 12px;
+}
+.solanaSolLogo1Icon1 {
+    position: relative;
+    width: 29.04px;
+    height: 36px;
+    object-fit: cover;
+}
+.sol {
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(97.86deg, #ff8d8d, #f7fc0e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 220px;
+    height: 37px;
+    flex-shrink: 0;
+}
+.solanaSolLogo1Parent {
+    position: absolute;
+    top: 11px;
+    left: 383px;
+    width: 243px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    gap: 10px;
+    font-size: 32px;
+}
+.frameParent {
+    position: relative;
+    width: 626px;
+    height: 67.96px;
+    font-size: 40px;
+    font-family: Roboto;
+}
+.claimRewardWrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background: linear-gradient(214.02deg, #b75cff, #671ae4);
+    width: 165px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.swapWalletWrapper {
+    position: absolute;
+    top: 0px;
+    left: 181px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.action {
+    position: relative;
+    width: 346px;
+    height: 50px;
+}
+.goldCoinMoneySymbolIconPn1 {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+}
+.coins {
+    position: relative;
+    display: inline-block;
+    width: 107px;
+    height: 27px;
+    flex-shrink: 0;
+}
+.goldCoinMoneySymbolIconPnParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.groupParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 19px;
+}
+.profilePictureParent {
+    margin: 0 !important;
+    position: absolute;
+    top: 32px;
+    left: 31px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 48px;
+    z-index: 1;
+}
+.cardClickParent {
+    position: absolute;
+    top: 114px;
+    left: 88px;
+    height: 262px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.cardUnClick1 {
+    position: absolute;
+    top: 432px;
+    left: 504px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    width: 861px;
+    height: 722px;
+}
+.userIcon1 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+.profileInfo {
+    position: relative;
+    display: inline-block;
+    width: 269px;
+    flex-shrink: 0;
+}
+.expandRightLightIcon7 {
+    position: relative;
+    width: 15.36px;
+    height: 24px;
+}
+.userParent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 347px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.lineDiv {
+    position: absolute;
+    top: 49.5px;
+    left: -0.5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    width: 343.49px;
+    height: 1px;
+}
+.frameGroup {
+    align-self: stretch;
+    position: relative;
+    height: 50px;
+}
+.accountSettings {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    width: 269px;
+    flex-shrink: 0;
+}
+.frameParent4 {
+    align-self: stretch;
+    position: relative;
+    height: 50px;
+    color: #fff;
+}
+.frameDiv {
+    position: absolute;
+    top: 467px;
+    left: 100px;
+    width: 347px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.pleaseCompleteThe1 {
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    width: 737px;
+}
+.submitVerificationRequestParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 18px;
+}
+.username {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 87.52%;
+}
+.loidonsafContainer {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 342px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.usernameParent {
+    position: relative;
+    width: 342px;
+    height: 68px;
+}
+.groupParent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 53px;
+}
+.yourComment {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 87.52%;
+    display: inline-block;
+    width: 323.25px;
+}
+.groupChild7 {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 737px;
+    height: 195px;
+}
+.yourCommentParent {
+    flex: 1;
+    position: relative;
+    height: 220px;
+}
+.groupWrapper {
+    width: 737px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.frameParent7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    font-size: 16px;
+}
+.frameParent6 {
+    position: absolute;
+    top: 467px;
+    left: 566px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 45px;
+}
+.button {
+    position: absolute;
+    top: 1069px;
+    left: 994px;
+    border-radius: 12px;
+    background: linear-gradient(97.86deg, #b75cff, #671ae4);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 16px 86px;
+    font-size: 19.2px;
+    font-family: Roboto;
+}
+.profilInfo {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 1861px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: Poppins;
+}
+
