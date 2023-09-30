@@ -51,7 +51,7 @@ const Marketplace = () => {
 </div>
 
 <div className={styles.cardUnClickParent}>
-<Link href='/MarketPlaceDetail'>
+<Link href='/PurchaseOrder'>
 <div className={styles.cardUnClick}>
 <div className={styles.cardUnClickInner}>
 <img className={styles.frameChild} alt="" src="/image/1.png" />
@@ -70,7 +70,7 @@ const Marketplace = () => {
 </div>
 </Link>
 
-<Link href='/MarketPlaceDetail'>
+<Link href='/PurchaseOrder'>
 
 <div className={styles.cardUnClick1}>
 <div className={styles.cardUnClickInner}>
@@ -90,7 +90,7 @@ const Marketplace = () => {
 </div>
 </Link>
 
-<Link href='/MarketPlaceDetail'>
+<Link href='/PurchaseOrder'>
 <div className={styles.cardUnClick2}>
 <div className={styles.cardUnClickInner}>
 <img className={styles.frameChild} alt="" src="/image/3.png" />
@@ -109,7 +109,7 @@ const Marketplace = () => {
 </div>
 </Link>
 
-<Link href='/MarketPlaceDetail'>
+<Link href='/PurchaseOrder'>
 <div className={styles.cardUnClick3}>
 <div className={styles.cardUnClickInner}>
 <img className={styles.frameChild} alt="" src="/image/4.png" />
@@ -128,7 +128,7 @@ const Marketplace = () => {
 </div>
 </Link>
 
-<Link href='/MarketPlaceDetail'>
+<Link href='/PurchaseOrder'>
 <div className={styles.cardUnClick4}>
 <div className={styles.cardUnClickInner}>
 <img className={styles.frameChild} alt="" src="/image/5.png" />
@@ -147,7 +147,7 @@ const Marketplace = () => {
 </div>
 </Link>
 
-<Link href='/MarketPlaceDetail'>
+<Link href='/PurchaseOrder'>
 <div className={styles.cardUnClick5}>
 <div className={styles.cardUnClickInner}>
 <img className={styles.frameChild} alt="" src="/image/6.png" />
@@ -166,7 +166,7 @@ const Marketplace = () => {
 </div>
 </Link>
 
-<Link href='/MarketPlaceDetail'>
+<Link href='/PurchaseOrder'>
 <div className={styles.cardUnClick6}>
 <div className={styles.cardUnClickInner}>
 <img className={styles.frameChild} alt="" src="/image/7.png" />
@@ -185,7 +185,7 @@ const Marketplace = () => {
 </div>
 </Link>
 
-<Link href='/MarketPlaceDetail'>
+<Link href='/PurchaseOrder'>
 <div className={styles.cardUnClick7}>
 <div className={styles.cardUnClickInner}>
 <img className={styles.frameChild} alt="" src="/image/8.png" />
