@@ -223,11 +223,13 @@ const Marketplace = () => {
 </div>
 <div className={styles.theBestNftMarketplaceWebsiParent}>
 <div className={styles.theBestNft}>The best NFT marketplace website in the world and feel your experience in selling or buy our work.</div>
-<b className={styles.tetrasolana1}>
-<span>Tetra</span>
-<span className={styles.so}>SO</span>
-<span>lana</span>
-</b>
+<Link href='/'>
+						<b className={styles.tetrasolana}>
+          					<span>Tetra</span>
+          					<span className={styles.so}>SO</span>
+          					<span>lana</span>
+        				</b>
+						</Link>
 </div>
 <div className={styles.contactParent}>
 <b className={styles.about}>Contact</b>

@@ -157,223 +157,380 @@
     height: 100px;
     overflow: hidden;
 }
-.productDetails {
-    position: relative;
-}
-.productDetailsWrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-.image3Icon {
-    position: relative;
+.cardClick1 {
     border-radius: 20px;
-    width: 527px;
-    height: 477px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    width: 1281px;
+    height: 266px;
+    z-index: 0;
+}
+.profilePictureIcon {
+    flex: 1;
+    position: relative;
+    border-radius: 50%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 163px;
     object-fit: cover;
 }
-.t {
-    color: #baad1d;
+.vanDarkholme {
+    position: relative;
 }
-.cloudyt {
-    position: absolute;
-    top: 49px;
-    left: 136px;
-    line-height: 120%;
-    display: inline-block;
-    width: 585px;
-    height: 58px;
-}
-.groupChild {
+.vanDarkholmeWrapper {
     position: absolute;
     top: 0px;
     left: 0px;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
-    width: 762px;
-    height: 461px;
-}
-.zinksuWrapper {
-    position: absolute;
-    height: 57.05%;
-    width: 75.38%;
-    top: 0.11%;
-    right: 0%;
-    bottom: 42.84%;
-    left: 24.62%;
+    width: 383.38px;
+    height: 34.2px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
     padding: 0px 15px;
     box-sizing: border-box;
-    transform:  rotate(-0.04deg);
-    transform-origin: 0 0;
+    font-family: Poppins;
 }
-.zinksuContainer {
+.loidonsafWrapper {
     position: absolute;
-    height: 39.59%;
-    width: 35.95%;
-    top: 59.65%;
-    right: 39.44%;
-    bottom: 0.76%;
-    left: 24.61%;
+    top: 52px;
+    left: 5px;
+    width: 182.66px;
+    height: 15.96px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
     padding: 0px 15px;
     box-sizing: border-box;
-    transform:  rotate(-0.04deg);
-    transform-origin: 0 0;
     opacity: 0.4;
     font-size: 12px;
-    font-family: Roboto;
 }
-.profilePictureIcon1 {
-    position: absolute;
-    top: -0.02px;
-    left: -0.01px;
-    width: 48.12px;
-    height: 46.89px;
-    object-fit: cover;
-}
-.frameGroup {
-    position: absolute;
-    height: 10.17%;
-    width: 22.39%;
-    top: 26.92%;
-    right: 59.76%;
-    bottom: 62.91%;
-    left: 17.85%;
-    transform:  rotate(-0.04deg);
-    transform-origin: 0 0;
-    font-size: 15px;
-}
-.label {
+.solanaSolLogo1Icon1 {
     position: relative;
-    display: inline-block;
-    width: 165px;
-    height: 25px;
-    flex-shrink: 0;
+    width: 29.04px;
+    height: 36px;
+    object-fit: cover;
 }
 .sol {
     position: relative;
-    font-size: 35px;
-    line-height: 120%;
     display: inline-block;
-    width: 215px;
-    height: 60px;
+    background: linear-gradient(97.86deg, #ff8d8d, #f7fc0e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 220px;
+    height: 37px;
     flex-shrink: 0;
 }
-.labelParent {
-    width: 179px;
-    height: 96px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 8px;
-}
-.vectorIcon {
-    position: relative;
-    width: 2px;
-    height: 89px;
-}
-.auctionEndsIn1 {
-    position: relative;
-    display: inline-block;
-    width: 165px;
-    height: 22px;
-    flex-shrink: 0;
-}
-.days {
-    position: relative;
-    font-size: 14px;
-    font-weight: 500;
-    color: rgba(255, 255, 255, 0.5);
-}
-.group {
+.solanaSolLogo1Parent {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-.frameWrapper1 {
-    position: relative;
-    width: 41px;
-    height: 66px;
-}
-.b2 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    display: inline-block;
-    width: 43px;
-}
-.mins {
-    position: absolute;
-    top: 45px;
-    left: 0px;
-    font-size: 14px;
-    font-weight: 500;
-    color: rgba(255, 255, 255, 0.5);
-}
-.container {
-    position: relative;
-    width: 43px;
-    height: 66px;
-}
-.frameParent1 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 73px;
+    top: 11px;
+    left: 383px;
+    width: 243px;
+    height: 37px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 30px;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    gap: 10px;
+    font-size: 32px;
 }
-.groupDiv {
+.frameGroup {
     position: relative;
-    width: 253px;
-    height: 73px;
-    font-size: 30px;
+    width: 626px;
+    height: 67.96px;
+    font-size: 40px;
+    font-family: Roboto;
 }
-.auctionEndsInParent {
-    width: 245px;
-    height: 74px;
+.claimReward {
+    position: relative;
+    font-weight: 500;
+}
+.claimRewardWrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background: linear-gradient(214.02deg, #b75cff, #671ae4);
+    width: 165px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.swapWalletWrapper {
+    position: absolute;
+    top: 0px;
+    left: 181px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.action {
+    position: relative;
+    width: 346px;
+    height: 50px;
+}
+.goldCoinMoneySymbolIconPn1 {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+}
+.coins {
+    position: relative;
+    display: inline-block;
+    width: 107px;
+    height: 27px;
+    flex-shrink: 0;
+}
+.goldCoinMoneySymbolIconPnParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.groupParent {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 8px;
+    gap: 19px;
+}
+.profilePictureParent {
+    margin: 0 !important;
+    position: absolute;
+    top: 35px;
+    left: 32px;
+    width: 846px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 48px;
+    z-index: 1;
+}
+.cardClickParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    gap: 10px;
 }
 .frameDiv {
     position: absolute;
-    top: 188px;
-    left: 136px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.frameWrapper {
+    position: relative;
+    width: 1277px;
+    height: 262px;
+}
+.userIcon1 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+.profileInfo {
+    position: relative;
+    display: inline-block;
+    width: 269px;
+    flex-shrink: 0;
+}
+.expandRightLightIcon7 {
+    position: relative;
+    width: 15.36px;
+    height: 24px;
+}
+.userParent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 347px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 33px;
-    font-size: 18px;
+    gap: 20px;
 }
-.interactiveFunIts1 {
+.groupChild {
     position: absolute;
-    top: 301px;
-    left: 136px;
-    font-size: 14px;
+    top: 49.5px;
+    left: -0.5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    width: 343.49px;
+    height: 1px;
+}
+.groupDiv {
+    align-self: stretch;
+    position: relative;
+    height: 50px;
+    color: #fff;
+}
+.accountSettings {
+    position: relative;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.5);
     display: inline-block;
-    width: 588px;
+    width: 269px;
+    flex-shrink: 0;
+}
+.frameParent2 {
+    align-self: stretch;
+    position: relative;
+    height: 50px;
+}
+.groupParent1 {
+    width: 347px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.cardUnClick1 {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    width: 861px;
+    height: 435px;
+    z-index: 0;
+}
+.name {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 87.52%;
+}
+.frameTextfield {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+.nameParent {
+    position: relative;
+    width: 342px;
+    height: 68px;
+}
+.frameInputtextarea {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+.groupParent2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 53px;
+}
+.phoneNumber {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 16px;
+    line-height: 87.52%;
+}
+.wrapper {
+    position: absolute;
+    top: 25px;
+    left: 155px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 187px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.autyz4pk2snhqtvw7gv61Icon1 {
+    position: relative;
+    width: 28px;
+    height: 14px;
+    object-fit: cover;
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.autyz4pk2snhqtvw7gv61Parent {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 141px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    gap: 10px;
+    text-align: center;
+}
+.phoneNumberParent {
+    position: relative;
+    width: 342px;
+    height: 69px;
+    font-size: 15px;
+}
+.groupChild5 {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    border-radius: 10px;
+    width: 342px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.repeatPassword1 {
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: inherit;
+    line-height: 87.52%;
+    font-weight: 700;
+    font-family: inherit;
+}
+.frameParent9 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 24px;
 }
 .button {
     border-radius: 12px;
@@ -383,139 +540,50 @@
     align-items: center;
     justify-content: flex-end;
     padding: 16px 86px;
-}
-.conectWallet {
-    position: relative;
-    font-weight: 500;
-}
-.conectWalletWrapper {
-    position: absolute;
-    top: 0.05px;
-    left: -75.92px;
-    border-radius: 27.75px;
-    width: 75.85px;
-    height: 45px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    transform:  rotate(-0.04deg);
-    transform-origin: 0 0;
-}
-.favoriteLightIcon1 {
-    position: absolute;
-    top: 7.04px;
-    left: -66.07px;
-    width: 24.01px;
-    height: 27.92px;
-}
-.instanceParent {
-    position: relative;
-    width: 45.2px;
-    height: 75.92px;
-    transform:  rotate(90.11deg);
-    transform-origin: 0 0;
-    text-align: right;
-    font-size: 17.76px;
-}
-.buttonParent {
-    position: absolute;
-    top: 381px;
-    left: 131px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 43px;
     font-size: 19.2px;
     font-family: Roboto;
 }
-.cloudytParent {
-    position: relative;
-    width: 762px;
-    height: 461px;
-}
-.groupWrapper {
+.frameParent8 {
     margin: 0 !important;
     position: absolute;
-    top: 9px;
-    left: 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    z-index: 0;
-}
-.frameWrapper {
-    width: 762px;
-    height: 470px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: relative;
-}
-.image3Parent {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    font-size: 45px;
-}
-.curated {
-    background: linear-gradient(-90deg, #b75cff, #6100ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.image10Icon {
-    position: relative;
-    border-radius: 70px;
-    width: 400px;
-    height: 319.05px;
-    object-fit: cover;
-}
-.image10Parent {
+    top: 35px;
+    left: 59px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 33px;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 45px;
+    z-index: 1;
 }
-.image8Icon {
-    position: relative;
-    border-radius: 70px;
-    width: 400px;
-    height: 315.04px;
-    object-fit: cover;
-}
-.frameParent2 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 24px;
-    font-size: 24px;
-    font-family: Roboto;
-}
-.curatedCollectionsParent {
+.cardUnClickParent {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 30px;
+    position: relative;
+    gap: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+.frameParent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 57px;
+    color: rgba(255, 255, 255, 0.5);
 }
 .frameParent {
     position: absolute;
     top: 114px;
     left: 88px;
+    width: 1277px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: flex-start;
-    gap: 47px;
-    font-size: 40px;
+    justify-content: center;
+    gap: 57px;
     color: #fff;
 }
 .selectWalletWrapper {
@@ -527,7 +595,7 @@
     justify-content: center;
     padding: 10px 20px;
 }
-.groupItem {
+.ellipseDiv {
     position: absolute;
     top: 0px;
     left: 12.29px;
@@ -536,7 +604,7 @@
     width: 20.48px;
     height: 20.63px;
 }
-.groupInner {
+.rectangleDiv {
     position: absolute;
     top: 26px;
     left: 0px;

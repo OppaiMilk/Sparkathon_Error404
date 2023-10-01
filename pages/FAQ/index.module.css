@@ -1,0 +1,561 @@
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(113.49deg, #984d38, #181e41 63.29%);
+    width: 1674px;
+    height: 1860px;
+}
+.marketplace {
+    position: relative;
+    font-weight: 500;
+}
+.selectWalletWrapper {
+    border-radius: 10px;
+    background: linear-gradient(214.02deg, #b75cff, #671ae4);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.groupItem {
+    position: absolute;
+    top: 0px;
+    left: 12.29px;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 20.48px;
+    height: 20.63px;
+}
+.groupInner {
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    background-color: #fff;
+    width: 43px;
+    height: 10px;
+}
+.ellipseParent {
+    position: relative;
+    width: 43px;
+    height: 36px;
+}
+.marketplaceParent {
+    position: absolute;
+    top: 0px;
+    left: 767.72px;
+    width: 730.28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 40px;
+}
+.so {
+    background: linear-gradient(214.02deg, #b75cff, #671ae4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.tetrasolana {
+    position: absolute;
+    top: 16px;
+    left: 0px;
+    font-size: 25px;
+    display: inline-block;
+    width: 189.59px;
+}
+.searchChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 457.59px;
+    height: 50px;
+}
+.searchIcon1 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.searchParent {
+    position: absolute;
+    top: 10px;
+    left: 19.9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.search {
+    position: absolute;
+    top: 10px;
+    left: 228.21px;
+    width: 457.59px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.header {
+    position: absolute;
+    top: 23px;
+    left: 88px;
+    width: 1498px;
+    height: 70px;
+}
+.frequently {
+    background: linear-gradient(-90deg, #b75cff, #6100ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.frequentlyAskedQuestionContainer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.top {
+    position: absolute;
+    top: 0px;
+    left: 354.51px;
+    width: 554px;
+    height: 60px;
+    font-size: 40px;
+}
+.profileDetails6 {
+    position: absolute;
+    top: 3.29px;
+    left: 1263.03px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 230.82px;
+    height: 1262.58px;
+    transform:  rotate(90.11deg);
+    transform-origin: 0 0;
+}
+.frameChild {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    width: 1168.8px;
+    height: 1px;
+    z-index: 1;
+}
+.div {
+    position: absolute;
+    margin: 0 !important;
+    top: 0px;
+    left: 1134.63px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    width: 35.55px;
+    height: 60.32px;
+    flex-shrink: 0;
+    z-index: 2;
+}
+.theSolanaTetris1 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    width: 1167px;
+    z-index: 3;
+}
+.whatIsTheTetrasolanaAndHParent {
+    position: absolute;
+    top: 31.16px;
+    left: 35.28px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 9px;
+}
+.profileDetailsParent {
+    position: relative;
+    width: 1263.03px;
+    height: 234.93px;
+    z-index: 0;
+}
+.firstContentChild {
+    position: absolute;
+    margin: 0 !important;
+    top: 269px;
+    left: 0px;
+    width: 1262.83px;
+    height: 130.09px;
+    z-index: 1;
+}
+.firstContent {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.profileDetails7 {
+    position: absolute;
+    top: 0px;
+    left: -0.61px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 127.47px;
+    height: 1262.58px;
+}
+.howCanIEarnRewardsByPlayParent {
+    position: absolute;
+    top: 1215.77px;
+    left: 28.95px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 9px;
+    transform:  rotate(-90.11deg);
+    transform-origin: 0 0;
+}
+.profileDetailsGroup {
+    position: absolute;
+    top: 2.48px;
+    left: 1262.82px;
+    width: 126.24px;
+    height: 1262.58px;
+    transform:  rotate(90.11deg);
+    transform-origin: 0 0;
+}
+.faqContentInner {
+    position: absolute;
+    top: 536px;
+    left: 0px;
+    width: 1262.82px;
+    height: 128.71px;
+}
+.profileDetails8 {
+    position: absolute;
+    top: 0px;
+    left: -0.38px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 127.47px;
+    height: 1262.58px;
+}
+.doINeedToHoldSolOrOtherParent {
+    position: absolute;
+    top: 1215.77px;
+    left: 29.95px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 9px;
+    transform:  rotate(-90.11deg);
+    transform-origin: 0 0;
+}
+.profileDetailsContainer {
+    position: absolute;
+    top: 2.48px;
+    left: 1262.83px;
+    width: 126.7px;
+    height: 1262.58px;
+    transform:  rotate(90.11deg);
+    transform-origin: 0 0;
+}
+.faqContentChild {
+    position: absolute;
+    top: 703px;
+    left: 0px;
+    width: 1262.83px;
+    height: 129.18px;
+}
+.profileDetails9 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 127.47px;
+    height: 1262.58px;
+}
+.canIUseMyExistingSolanaWParent {
+    position: absolute;
+    top: 1235.81px;
+    left: 29.95px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 9px;
+    transform:  rotate(-90.11deg);
+    transform-origin: 0 0;
+}
+.profileDetailsParent1 {
+    position: absolute;
+    top: 2.52px;
+    left: 1282.87px;
+    width: 147.47px;
+    height: 1282.58px;
+    transform:  rotate(90.11deg);
+    transform-origin: 0 0;
+}
+.frameDiv {
+    position: absolute;
+    top: 1037px;
+    left: 0px;
+    width: 1282.87px;
+    height: 149.98px;
+}
+.profileDetails10 {
+    position: absolute;
+    top: 0px;
+    left: -0.93px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 127.47px;
+    height: 1262.58px;
+}
+.whatIsThe3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 1109.52px;
+    height: 60.32px;
+    flex-shrink: 0;
+    z-index: 0;
+}
+.whatIsTheSecurityProtocolParent {
+    position: absolute;
+    top: 1215.76px;
+    left: 29.95px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 9px;
+    transform:  rotate(-90.11deg);
+    transform-origin: 0 0;
+}
+.profileDetailsParent2 {
+    position: absolute;
+    top: 2.48px;
+    left: 1262.82px;
+    width: 125.61px;
+    height: 1262.58px;
+    transform:  rotate(90.11deg);
+    transform-origin: 0 0;
+}
+.faqContentInner1 {
+    position: absolute;
+    top: 870px;
+    left: 0px;
+    width: 1262.82px;
+    height: 128.09px;
+}
+.profileDetails11 {
+    position: absolute;
+    top: 0px;
+    left: 0.07px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 127.47px;
+    height: 1262.58px;
+}
+.isThisTetrasolana {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 1006.26px;
+    height: 60.32px;
+    flex-shrink: 0;
+    z-index: 0;
+}
+.profileDetailsParent3 {
+    position: absolute;
+    top: 371.48px;
+    left: 1262.83px;
+    width: 127.61px;
+    height: 1262.58px;
+    transform:  rotate(90.11deg);
+    transform-origin: 0 0;
+}
+.faqContent {
+    position: absolute;
+    top: -67px;
+    left: 0px;
+    width: 1282.87px;
+    height: 1186.98px;
+}
+.faqContentWrapper {
+    position: absolute;
+    top: 214px;
+    left: 183px;
+    width: 1282.87px;
+    height: 1186.98px;
+}
+.about {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    width: 69.2px;
+}
+.product {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 64.81px;
+}
+.resource {
+    position: absolute;
+    top: 93px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 77.99px;
+}
+.termCondition1 {
+    position: absolute;
+    top: 136px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 146.09px;
+}
+.faq1 {
+    position: absolute;
+    top: 179px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 32.95px;
+}
+.aboutParent {
+    position: absolute;
+    top: 2px;
+    left: 662.33px;
+    width: 146.09px;
+    height: 202px;
+}
+.theBestNft {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 316.34px;
+}
+.tetrasolana1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+    width: 177.94px;
+    color: #fff;
+}
+.theBestNftMarketplaceWebsiParent {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 316.34px;
+    height: 119px;
+}
+.contact {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    width: 92.26px;
+}
+.div6 {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 114.23px;
+}
+.tetrasolanagmailcom {
+    position: absolute;
+    top: 93px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 203.2px;
+}
+.youtubeIcon1 {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.youtubeParent {
+    position: absolute;
+    top: 136px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.contactParent {
+    position: absolute;
+    top: 0px;
+    left: 957.8px;
+    width: 203.2px;
+    height: 161px;
+}
+.footer {
+    position: absolute;
+    top: 1499px;
+    left: 235px;
+    width: 1161px;
+    height: 204px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.tetrasolanaAllRights {
+    position: absolute;
+    top: 1795px;
+    left: 618px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+}
+.rectangleParent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1674px;
+    height: 1860px;
+}
+.groupParent {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 1860px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: Poppins;
+}
+

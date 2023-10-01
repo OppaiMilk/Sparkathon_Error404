@@ -9,10 +9,18 @@ const TetrisSwitcher = () => {
     setShowFirstPage(prevState => !prevState);
   };
 
+  const goBackToIndex = () => {
+    window.location.href = '/'; // 修改成正确的路径
+  };
+
   return (
     <div>
       <button onClick={togglePage}>
         Switch
+      </button>
+      
+      <button onClick={goBackToIndex}>
+        Back
       </button>
       {showFirstPage ? (
         <iframe
