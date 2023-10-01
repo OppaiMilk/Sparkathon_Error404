@@ -1,531 +1,619 @@
-.marketplaceChild {
-    position: absolute;
-    top: 1px;
-    left: 0px;
-    background: linear-gradient(113.49deg, #984d38, #181e41 63.29%);
-    width: 1440px;
-    height: 4738px;
-}
-.tetrasolanaAllRights {
-    position: absolute;
-    top: 1727px;
-    left: 544px;
-    font-weight: 500;
-}
-.game {
-    position: relative;
-    font-weight: 500;
-}
-.selectWalletWrapper {
-    border-radius: 10px;
-    background: linear-gradient(214.02deg, #b75cff, #671ae4);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 20px;
-}
-.marketplaceParent {
-    position: absolute;
-    top: 0px;
-    left: 656px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    gap: 40px;
-}
-.so {
-    background: linear-gradient(214.02deg, #b75cff, #671ae4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.tetrasolana {
-    position: absolute;
-    top: 16px;
-    left: 0px;
-    font-size: 25px;
-}
-.searchChild {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.1);
-    width: 384px;
-    height: 50px;
-}
-.searchIcon1 {
-    position: relative;
-    width: 20px;
-    height: 20px;
-    overflow: hidden;
-    flex-shrink: 0;
-}
-.searchParent {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-.search {
-    position: absolute;
-    top: 10px;
-    left: 202px;
-    width: 384px;
-    height: 50px;
-    color: rgba(255, 255, 255, 0.5);
-}
-.header {
-    position: absolute;
-    top: 10px;
-    left: 122px;
-    width: 1201px;
-    height: 70px;
-    color: #fff;
-}
-.about {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-}
-.product {
-    position: absolute;
-    top: 50px;
-    left: 0px;
-    font-weight: 500;
-}
-.resource {
-    position: absolute;
-    top: 93px;
-    left: 0px;
-    font-weight: 500;
-}
-.termCondition1 {
-    position: absolute;
-    top: 136px;
-    left: 0px;
-    font-weight: 500;
-}
-.aboutParent {
-    position: absolute;
-    top: 0px;
-    left: 419px;
-    width: 133px;
-    height: 202px;
-}
-.features {
-    position: absolute;
-    top: 179px;
-    left: 0px;
-    font-weight: 500;
-}
-.companyParent {
-    position: absolute;
-    top: 0px;
-    left: 683px;
-    width: 119px;
-    height: 202px;
-}
-.theBestNft {
-    position: absolute;
-    top: 50px;
-    left: 0px;
-    font-weight: 500;
-    display: inline-block;
-    width: 288px;
-}
-.tetrasolana1 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    font-size: 25px;
-    text-align: center;
-    color: #fff;
-}
-.theBestNftMarketplaceWebsiParent {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 288px;
-    height: 119px;
-}
-.youtubeIcon1 {
-    position: relative;
-    width: 25px;
-    height: 25px;
-    overflow: hidden;
-    flex-shrink: 0;
-}
-.youtubeParent {
-    position: absolute;
-    top: 136px;
-    left: 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-}
-.contactParent {
-    position: absolute;
-    top: 0px;
-    left: 933px;
-    width: 185px;
-    height: 161px;
-}
-.footer {
-    position: absolute;
-    top: 1425px;
-    left: 139px;
-    width: 1118px;
-    height: 202px;
-    font-size: 15px;
-}
-.marketplaceItem {
-    position: absolute;
-    top: 1491px;
-    left: 22px;
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-}
-.groupChild {
-    position: absolute;
-    top: 0px;
-    left: 12.29px;
-    border-radius: 50%;
-    background-color: #fff;
-    width: 20.48px;
-    height: 20.63px;
-}
-.groupItem {
-    position: absolute;
-    top: 26px;
-    left: 0px;
-    background-color: #fff;
-    width: 43px;
-    height: 10px;
-}
-.ellipseParent {
-    position: absolute;
-    top: 27px;
-    left: 1332px;
-    width: 43px;
-    height: 36px;
+.productDetailChild {
+  	position: absolute;
+  	top: 1px;
+  	left: 0px;
+  	background: linear-gradient(113.49deg, #984d38, #181e41 63.29%);
+  	width: 2578px;
+  	height: 1860px;
 }
 .marketplace {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: -1.29%;
-    right: -1.32%;
-    bottom: 1.29%;
-    left: 1.32%;
-    background-color: #fff;
-    font-size: 20px;
-    color: rgba(255, 255, 255, 0.5);
+  	position: relative;
+  	font-weight: 500;
 }
-.ted {
-    color: #fff;
+.selectWalletWrapper {
+  	border-radius: 10px;
+  	background: linear-gradient(214.02deg, #b75cff, #671ae4);
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 20px;
 }
-.curatedCollections {
-    position: absolute;
-    height: 3.65%;
-    width: 60.07%;
-    top: 41.97%;
-    left: 5.83%;
-    font-size: 96px;
-    font-family: 'Road Rage';
-    display: inline-block;
-    color: #a730d1;
+.groupChild {
+  	position: absolute;
+  	top: 0px;
+  	left: 12.29px;
+  	border-radius: 50%;
+  	background-color: #fff;
+  	width: 20.48px;
+  	height: 20.63px;
 }
-.sol {
-    position: absolute;
-    top: 26.06%;
-    left: 54.93%;
-    font-family: 'Racing Sans One';
+.groupItem {
+  	position: absolute;
+  	top: 26px;
+  	left: 0px;
+  	background-color: #fff;
+  	width: 43px;
+  	height: 10px;
 }
-.image2Icon {
-    position: absolute;
-    height: 27.03%;
-    width: 45.49%;
-    top: 13.33%;
-    right: 48.68%;
-    bottom: 59.65%;
-    left: 5.83%;
-    border-radius: 100px;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
+.ellipseParent {
+  	position: relative;
+  	width: 43px;
+  	height: 36px;
 }
-.productDetails {
-    position: absolute;
-    height: 3.65%;
-    width: 60.07%;
-    top: 6.29%;
-    left: 5.83%;
-    font-size: 96px;
-    font-family: 'Road Rage';
-    display: inline-block;
-    color: #a730d1;
+.marketplaceParent {
+  	position: absolute;
+  	top: 0px;
+  	left: 767.72px;
+  	width: 730.28px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+  	box-sizing: border-box;
+  	gap: 40px;
+}
+.so {
+  	background: linear-gradient(214.02deg, #b75cff, #671ae4);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.tetrasolana {
+  	position: absolute;
+  	top: 16px;
+  	left: 0px;
+  	font-size: 25px;
+  	display: inline-block;
+  	width: 189.59px;
+}
+.searchChild {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 10px;
+  	background-color: rgba(255, 255, 255, 0.1);
+  	width: 457.59px;
+  	height: 50px;
+}
+.searchIcon1 {
+  	position: relative;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.searchParent {
+  	position: absolute;
+  	top: 10px;
+  	left: 19.9px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 10px;
+}
+.search {
+  	position: absolute;
+  	top: 10px;
+  	left: 228.21px;
+  	width: 457.59px;
+  	height: 50px;
+  	color: rgba(255, 255, 255, 0.5);
+}
+.header {
+  	position: absolute;
+  	top: 34px;
+  	left: 540px;
+  	width: 1498px;
+  	height: 70px;
+}
+.tetrasolanaAllRights {
+  	position: absolute;
+  	top: 1690px;
+  	left: 998px;
+  	font-weight: 500;
+  	color: rgba(255, 255, 255, 0.5);
+}
+.about {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-size: 20px;
+  	display: inline-block;
+  	color: #fff;
+  	text-align: center;
+  	width: 69.2px;
+}
+.product {
+  	position: absolute;
+  	top: 50px;
+  	left: 0px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 64.81px;
+}
+.resource {
+  	position: absolute;
+  	top: 93px;
+  	left: 0px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 77.99px;
+}
+.termCondition1 {
+  	position: absolute;
+  	top: 136px;
+  	left: 0px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 146.09px;
+}
+.faq1 {
+  	position: absolute;
+  	top: 179px;
+  	left: 0px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 32.95px;
+}
+.aboutParent {
+  	position: absolute;
+  	top: 2px;
+  	left: 662.33px;
+  	width: 146.09px;
+  	height: 202px;
+}
+.theBestNft {
+  	position: absolute;
+  	top: 50px;
+  	left: 0px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 316.34px;
+}
+.tetrasolana1 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-size: 25px;
+  	display: inline-block;
+  	text-align: center;
+  	width: 177.94px;
+  	color: #fff;
+}
+.theBestNftMarketplaceWebsiParent {
+  	position: absolute;
+  	top: 2px;
+  	left: 0px;
+  	width: 316.34px;
+  	height: 119px;
+}
+.contact {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-size: 20px;
+  	display: inline-block;
+  	color: #fff;
+  	text-align: center;
+  	width: 92.26px;
+}
+.div {
+  	position: absolute;
+  	top: 50px;
+  	left: 0px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 114.23px;
+}
+.tetrasolanagmailcom {
+  	position: absolute;
+  	top: 93px;
+  	left: 0px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 203.2px;
+}
+.youtubeIcon1 {
+  	position: relative;
+  	width: 25px;
+  	height: 25px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.youtubeParent {
+  	position: absolute;
+  	top: 136px;
+  	left: 0px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 40px;
+}
+.contactParent {
+  	position: absolute;
+  	top: 0px;
+  	left: 957.8px;
+  	width: 203.2px;
+  	height: 161px;
+}
+.footer {
+  	position: absolute;
+  	top: 1394px;
+  	left: 623px;
+  	width: 1161px;
+  	height: 204px;
+  	font-size: 15px;
+  	color: rgba(255, 255, 255, 0.5);
 }
 .t {
-    color: #e2f40f;
+  	color: #baad1d;
 }
 .cloudyt {
-    position: absolute;
-    top: 15.21%;
-    left: 54.03%;
-    font-size: 64px;
-    font-family: 'Rubik One';
+  	position: absolute;
+  	top: 49px;
+  	left: 136px;
+  	line-height: 120%;
+  	display: inline-block;
+  	width: 585px;
+  	height: 58px;
 }
-.profilePictureIcon {
-    position: absolute;
-    height: 3.49%;
-    width: 4.44%;
-    top: 19.94%;
-    right: 41.25%;
-    bottom: 76.57%;
-    left: 54.31%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
+.groupInner {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 20px;
+  	background-color: rgba(255, 255, 255, 0.1);
+  	width: 762px;
+  	height: 461px;
 }
-.vanDarkholme {
-    position: relative;
+.zinksu {
+  	position: relative;
 }
-.vanDarkholmeWrapper {
-    position: absolute;
-    height: 57.56%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 42.44%;
-    left: 0%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0px 15px;
-    box-sizing: border-box;
+.zinksuWrapper {
+  	position: absolute;
+  	height: 57.05%;
+  	width: 75.38%;
+  	top: 0.11%;
+  	right: 0%;
+  	bottom: 42.84%;
+  	left: 24.62%;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 15px;
+  	box-sizing: border-box;
+  	transform:  rotate(-0.04deg);
+  	transform-origin: 0 0;
 }
-.loidonsafWrapper {
-    position: absolute;
-    height: 39.94%;
-    width: 47.69%;
-    top: 60.06%;
-    right: 52.31%;
-    bottom: 0%;
-    left: 0%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0px 15px;
-    box-sizing: border-box;
-    opacity: 0.4;
-    font-size: 12px;
-    font-family: Roboto;
+.zinksuContainer {
+  	position: absolute;
+  	height: 39.59%;
+  	width: 35.95%;
+  	top: 59.65%;
+  	right: 39.44%;
+  	bottom: 0.76%;
+  	left: 24.61%;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 15px;
+  	box-sizing: border-box;
+  	transform:  rotate(-0.04deg);
+  	transform-origin: 0 0;
+  	opacity: 0.4;
+  	font-size: 12px;
+  	font-family: Roboto;
+}
+.profilePictureIcon1 {
+  	position: absolute;
+  	top: -0.02px;
+  	left: -0.01px;
+  	width: 48.12px;
+  	height: 46.89px;
+  	object-fit: cover;
 }
 .frameParent {
-    position: absolute;
-    height: 2.15%;
-    width: 10.21%;
-    top: 20.58%;
-    right: 31.04%;
-    bottom: 77.27%;
-    left: 58.75%;
-    font-size: 15px;
+  	position: absolute;
+  	height: 10.17%;
+  	width: 22.39%;
+  	top: 26.92%;
+  	right: 59.76%;
+  	bottom: 62.91%;
+  	left: 17.85%;
+  	transform:  rotate(-0.04deg);
+  	transform-origin: 0 0;
+  	font-size: 15px;
 }
 .label {
-    position: absolute;
-    top: 25.04%;
-    left: 54.93%;
-    font-size: 15px;
-    font-family: Radley;
+  	position: relative;
+  	display: inline-block;
+  	width: 165px;
+  	height: 25px;
+  	flex-shrink: 0;
 }
-.usd {
-    position: absolute;
-    top: 28.75%;
-    left: 54.93%;
-    font-size: 14px;
-    font-family: Rasa;
+.sol {
+  	position: relative;
+  	font-size: 35px;
+  	line-height: 120%;
+  	display: inline-block;
+  	width: 215px;
+  	height: 60px;
+  	flex-shrink: 0;
 }
-.pepiconsPencillineY1 {
-    position: absolute;
-    height: 11.07%;
-    width: 3.33%;
-    top: 19.99%;
-    right: 26.88%;
-    bottom: 68.94%;
-    left: 69.79%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
+.labelParent {
+  	width: 179px;
+  	height: 96px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 8px;
 }
-.button {
-    position: absolute;
-    top: calc(50% - 263.5px);
-    left: calc(50% + 58px);
-    border-radius: 12px;
-    background: linear-gradient(97.86deg, #b75cff, #671ae4);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 16px 86px;
-    font-size: 19.2px;
-    font-family: Roboto;
+.vectorIcon {
+  	position: relative;
+  	width: 2px;
+  	height: 89px;
 }
-.vectorIcon1 {
-    position: absolute;
-    height: 1.88%;
-    width: 6.74%;
-    top: 36.51%;
-    right: 17.05%;
-    bottom: 61.61%;
-    left: 76.22%;
-    border-radius: 100px;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
+.auctionEndsIn1 {
+  	position: relative;
+  	display: inline-block;
+  	width: 165px;
+  	height: 22px;
+  	flex-shrink: 0;
 }
-.vectorIcon2 {
-    position: absolute;
-    height: 1.88%;
-    width: 6.74%;
-    top: 36.57%;
-    right: 9.06%;
-    bottom: 61.55%;
-    left: 84.2%;
-    border-radius: 100px;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
+.days {
+  	position: relative;
+  	font-size: 14px;
+  	font-weight: 500;
+  	color: rgba(255, 255, 255, 0.5);
 }
-.vectorIcon3 {
-    position: absolute;
-    height: 1.88%;
-    width: 6.74%;
-    top: 36.62%;
-    right: 0.66%;
-    bottom: 61.5%;
-    left: 92.6%;
-    border-radius: 100px;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
+.parent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
 }
-.div1 {
-    position: absolute;
-    top: 36.92%;
-    left: 88.54%;
-    font-size: 12px;
-    font-family: Lemon;
+.group {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
 }
-.vectorIcon4 {
-    position: absolute;
-    height: 0.9%;
-    width: 1.4%;
-    top: 36.92%;
-    right: 21.73%;
-    bottom: 62.19%;
-    left: 76.88%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
+.groupDiv {
+  	position: relative;
+  	width: 41px;
+  	height: 66px;
 }
-.div2 {
-    position: absolute;
-    top: 36.92%;
-    left: 80.42%;
-    font-size: 12px;
-    font-family: Lemon;
+.b2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 43px;
 }
-.bxcartIcon1 {
-    position: absolute;
-    height: 1.4%;
-    width: 1.81%;
-    top: 36.7%;
-    right: 5.28%;
-    bottom: 61.9%;
-    left: 92.92%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
+.mins {
+  	position: absolute;
+  	top: 45px;
+  	left: 0px;
+  	font-size: 14px;
+  	font-weight: 500;
+  	color: rgba(255, 255, 255, 0.5);
 }
-.mdiLightshareIcon1 {
-    position: absolute;
-    height: 1.4%;
-    width: 2.08%;
-    top: 36.59%;
-    right: 13.26%;
-    bottom: 62.01%;
-    left: 84.65%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
+.container {
+  	position: relative;
+  	width: 43px;
+  	height: 66px;
 }
-.div3 {
-    position: absolute;
-    top: 37.02%;
-    left: 96.81%;
-    font-size: 12px;
-    font-family: Lemon;
+.frameDiv {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	height: 73px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 30px;
 }
-.starz {
-    position: absolute;
-    height: 3.44%;
-    width: 8.4%;
-    top: 69.96%;
-    left: 14.44%;
-    display: inline-block;
+.frameWrapper {
+  	position: relative;
+  	width: 253px;
+  	height: 73px;
+  	font-size: 30px;
 }
-.twinklel {
-    position: absolute;
-    height: 3.44%;
-    width: 12.5%;
-    top: 69.96%;
-    left: 78.68%;
-    display: inline-block;
+.auctionEndsInParent {
+  	width: 245px;
+  	height: 74px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 8px;
 }
-.moonj {
-    position: absolute;
-    height: 3.44%;
-    width: 9.86%;
-    top: 69.96%;
-    left: 46.39%;
-    display: inline-block;
+.frameGroup {
+  	position: absolute;
+  	top: 188px;
+  	left: 136px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 33px;
+  	font-size: 18px;
 }
 .interactiveFunIts1 {
-    position: absolute;
-    top: 381px;
-    left: 1041px;
-    font-size: 20px;
-    font-weight: 500;
-    color: rgba(255, 255, 255, 0.5);
-    text-align: center;
-    display: inline-block;
-    width: 405px;
+  	position: absolute;
+  	top: 301px;
+  	left: 136px;
+  	font-size: 14px;
+  	font-weight: 500;
+  	color: rgba(255, 255, 255, 0.5);
+  	display: inline-block;
+  	width: 588px;
 }
-.purchaseOrder {
-    position: relative;
-    width: 100%;
-    height: 1861px;
-    text-align: left;
-    font-size: 40px;
-    color: #fff;
-    font-family: Poppins;
+.button {
+  	border-radius: 12px;
+  	background: linear-gradient(97.86deg, #b75cff, #671ae4);
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 16px 86px;
+}
+.conectWalletWrapper {
+  	position: absolute;
+  	top: 0.05px;
+  	left: -75.92px;
+  	border-radius: 27.75px;
+  	width: 75.85px;
+  	height: 45px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 12px 20px;
+  	box-sizing: border-box;
+  	transform:  rotate(-0.04deg);
+  	transform-origin: 0 0;
+}
+.favoriteLightIcon1 {
+  	position: absolute;
+  	top: 7.04px;
+  	left: -66.07px;
+  	width: 24.01px;
+  	height: 27.92px;
+}
+.instanceParent {
+  	position: relative;
+  	width: 45.2px;
+  	height: 75.92px;
+  	transform:  rotate(90.11deg);
+  	transform-origin: 0 0;
+  	text-align: right;
+  	font-size: 17.76px;
+}
+.buttonParent {
+  	position: absolute;
+  	top: 381px;
+  	left: 131px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 43px;
+  	font-size: 19.2px;
+  	font-family: Roboto;
+}
+.cloudytParent {
+  	position: relative;
+  	width: 762px;
+  	height: 461px;
+}
+.groupWrapper {
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 9px;
+  	left: 0px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	z-index: 0;
+}
+.productDetailInner {
+  	position: absolute;
+  	top: 257px;
+  	left: 1099px;
+  	width: 762px;
+  	height: 470px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	font-size: 45px;
+}
+.productDetailsWrapper {
+  	position: absolute;
+  	top: 158px;
+  	left: 572px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	font-size: 40px;
+}
+.image3Icon {
+  	position: absolute;
+  	top: 257px;
+  	left: 623px;
+  	border-radius: 20px;
+  	width: 527px;
+  	height: 477px;
+  	object-fit: cover;
+}
+.curated {
+  	background: linear-gradient(-90deg, #b75cff, #6100ff);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.image10Icon {
+  	position: relative;
+  	border-radius: 70px;
+  	width: 400px;
+  	height: 319.05px;
+  	object-fit: cover;
+}
+.image10Parent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 33px;
+}
+.image8Icon {
+  	position: relative;
+  	border-radius: 70px;
+  	width: 400px;
+  	height: 315.04px;
+  	object-fit: cover;
+}
+.frameParent1 {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 24px;
+  	font-size: 24px;
+  	font-family: Roboto;
+}
+.curatedCollectionsParent {
+  	position: absolute;
+  	top: 788px;
+  	left: 572px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 30px;
+  	font-size: 40px;
+}
+.productDetail {
+  	position: relative;
+  	background-color: #fff;
+  	width: 100%;
+  	height: 1861px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 20px;
+  	color: #fff;
+  	font-family: Poppins;
 }
 

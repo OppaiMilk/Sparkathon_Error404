@@ -36,12 +36,16 @@ const HomePage = () => {
             						<div className={styles.experienceTheClassic1}>Experience the classic game of Tetris like never before. Combine your gaming skills with blockchain rewards. Join us in the TetraSOlana revolution and transform your high scores into high rewards!</div>
             						<b className={styles.playEarn1}>{`Play, Earn & Collect Your Own Creative NFT`}</b>
             						<div className={styles.action}>
+										<Link href='/MarketPlace'>
               							<div className={styles.exploreNowWrapper}>
                 								<div className={styles.exploreNow}>Explore Now</div>
               							</div>
+										  </Link>
+										<Link href='/CreateArt'>
               							<div className={styles.sellNftWrapper}>
                 								<div className={styles.exploreNow}>Sell NFT</div>
               							</div>
+										</Link>
             						</div>
           					</div>
         				</div>
