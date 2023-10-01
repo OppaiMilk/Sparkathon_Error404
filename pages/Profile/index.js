@@ -1,11 +1,31 @@
-import 'antd/dist/antd.min.css';
+import 'antd/dist/antd.min.js';
 import { TextField,InputAdornment,Icon,IconButton } from "@mui/material"
 import { Input } from "antd"
 import styles from './index.module.css';
+import Link from 'next/link';
+import dynamic from 'next/dynamic';
+import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
+import { useState } from 'react';
 
 
 const ProfilInfo = () => {
-  	return (
+  	
+	const [token, setToken] = useState(0.8);
+	const [coin, setCoin] = useState(1500);
+
+
+    const collectReward = () => {
+        // You can add logic here to calculate and assign rewards
+        setToken(token + (coin/1000));
+		setCoin(0)
+      };
+
+	const successful = () => {
+		alert("successful");
+	  };
+	return (
+
+		
     		<div className={styles.profilInfo}>
       			<div className={styles.profilInfoChild} />
       			<div className={styles.tetrasolanaAllRights}>© 2023 TetraSOlana. All rights reserved.</div>
@@ -19,20 +39,28 @@ const ProfilInfo = () => {
         				</div>
         				<div className={styles.theBestNftMarketplaceWebsiParent}>
           					<div className={styles.theBestNft}>The best NFT marketplace website in the world and feel your experience in selling or buy our work.</div>
-          					<b className={styles.tetrasolana}>
+          					<Link href='/'>
+							<b className={styles.tetrasolana}>
             						<span>Tetra</span>
             						<span className={styles.so}>SO</span>
             						<span>lana</span>
           					</b>
+							  </Link>
         				</div>
         				<div className={styles.contactParent}>
           					<b className={styles.contact}>Contact</b>
           					<div className={styles.div}>+012 3456789</div>
           					<div className={styles.tetrasolanagmailcom}>tetrasolana@gmail.com</div>
           					<div className={styles.youtubeParent}>
-            						<img className={styles.youtubeIcon1} alt="" src="youtube.svg" />
-            						<img className={styles.youtubeIcon1} alt="" src="discord.svg" />
-            						<img className={styles.youtubeIcon1} alt="" src="instagram.svg" />
+							  <Link href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
+                                            																						<img className={styles.youtubeIcon1} alt="" src="/image/youtube.svg" />
+																																</Link>
+																																<Link href='https://discord.gg/DwkKuhgg'>
+																																<img className={styles.youtubeIcon1} alt="" src="/image/discord.svg" />
+																																</Link>
+																																<Link href='https://www.youtube.com/watch?v=Wjavakm7gMQ'>
+                                            																						<img className={styles.youtubeIcon1} alt="" src="/image/instagram.svg" />
+																																</Link>
           					</div>
         				</div>
       			</div>
@@ -43,7 +71,7 @@ const ProfilInfo = () => {
             						<div className={styles.cardClickParent}>
               							<div className={styles.cardClick1} />
               							<div className={styles.profilePictureParent}>
-                								<img className={styles.profilePictureIcon} alt="" src="Profile Picture.png" />
+                								<img className={styles.profilePictureIcon} alt="" src="/image/Profile Picture.svg" />
                 								<div className={styles.groupParent}>
                   									<div className={styles.frameGroup}>
                     										<div className={styles.vanDarkholmeWrapper}>
@@ -53,21 +81,20 @@ const ProfilInfo = () => {
                       											<div className={styles.vanDarkholme}>@loidonsaf</div>
                     										</div>
                     										<div className={styles.solanaSolLogo1Parent}>
-                      											<img className={styles.solanaSolLogo1Icon1} alt="" src="solana-sol-logo 1.png" />
-                      											<b className={styles.sol}>0.8 SOL</b>
+                      											<img className={styles.solanaSolLogo1Icon1} alt="" src="/image/solana-sol-logo 1.png" />
+                      											<b className={styles.sol}>{token} SOL</b>
                     										</div>
                   									</div>
                   									<div className={styles.action}>
                     										<div className={styles.claimRewardWrapper}>
-                      											<div className={styles.claimReward}>Claim Reward</div>
-                    										</div>
+															<button onClick={collectReward} className={styles.game}>Claim Reward</button>                    										</div>
                     										<div className={styles.swapWalletWrapper}>
                       											<div className={styles.claimReward}>Swap Wallet</div>
                     										</div>
                   									</div>
                   									<div className={styles.goldCoinMoneySymbolIconPnParent}>
-                    										<img className={styles.goldCoinMoneySymbolIconPn1} alt="" src="gold-coin-money-symbol-icon-png 1.png" />
-                    										<b className={styles.coins}>1200 coins</b>
+                    										<img className={styles.goldCoinMoneySymbolIconPn1} alt="" src="/image/gold-coin-money-symbol-icon-png 1.png" />
+                    										<b className={styles.coins}>{coin} coins</b>
                   									</div>
                 								</div>
               							</div>
@@ -78,57 +105,62 @@ const ProfilInfo = () => {
           					<div className={styles.groupParent1}>
             						<div className={styles.groupDiv}>
               							<div className={styles.userParent}>
-                								<img className={styles.userIcon1} alt="" src="User.svg" />
+                								<img className={styles.userIcon1} alt="" src="/image/User.png" />
                 								<b className={styles.profileInfo}>Profile Info</b>
-                								<img className={styles.expandRightLightIcon7} alt="" src="Expand_right_light.svg" />
+                								<img className={styles.expandRightLightIcon7} alt="" src="/image/Expand_right_light.png" />
               							</div>
               							<div className={styles.groupChild} />
             						</div>
             						<div className={styles.frameParent2}>
               							<div className={styles.userParent}>
-                								<img className={styles.userIcon1} alt="" src="Setting_line_light.svg" />
+                								<img className={styles.userIcon1} alt="" src="/image/Setting_line_light.png" />
                 								<div className={styles.accountSettings}>Account Settings</div>
-                								<img className={styles.expandRightLightIcon7} alt="" src="Expand_right_light.svg" />
+                								<img className={styles.expandRightLightIcon7} alt="" src="/image/Expand_right_light.png" />
               							</div>
               							<div className={styles.groupChild} />
             						</div>
             						<div className={styles.frameParent2}>
               							<div className={styles.userParent}>
-                								<img className={styles.userIcon1} alt="" src="Bell_light.svg" />
+                								<img className={styles.userIcon1} alt="" src="/image/Bell_light.png" />
                 								<div className={styles.accountSettings}>Notification Settings</div>
-                								<img className={styles.expandRightLightIcon7} alt="" src="Expand_right_light.svg" />
+                								<img className={styles.expandRightLightIcon7} alt="" src="/image/Expand_right_light.png" />
               							</div>
               							<div className={styles.groupChild} />
             						</div>
             						<div className={styles.frameParent2}>
+										<Link href='/CreateArt'>
               							<div className={styles.userParent}>
-                								<img className={styles.userIcon1} alt="" src="Img_alt_light.svg" />
+                								<img className={styles.userIcon1} alt="" src="/image/img_alt_light.png" />
                 								<div className={styles.accountSettings}>Create Artwork</div>
-                								<img className={styles.expandRightLightIcon7} alt="" src="Expand_right_light.svg" />
+                								<img className={styles.expandRightLightIcon7} alt="" src="/image/Expand_right_light.png" />
               							</div>
+										  </Link>
               							<div className={styles.groupChild} />
             						</div>
             						<div className={styles.frameParent2}>
               							<div className={styles.userParent}>
-                								<img className={styles.userIcon1} alt="" src="Wallet_light.svg" />
+                								<img className={styles.userIcon1} alt="" src="/image/Wallet_light.png" />
                 								<div className={styles.accountSettings}>Wallet Info</div>
-                  									<img className={styles.expandRightLightIcon7} alt="" src="Expand_right_light.svg" />
+                  									<img className={styles.expandRightLightIcon7} alt="" src="/image/Expand_right_light.png" />
                 								</div>
                 								<div className={styles.groupChild} />
               							</div>
+
+										<Link href='/GetVerified'>
               							<div className={styles.frameParent2}>
                 								<div className={styles.userParent}>
-                  									<img className={styles.userIcon1} alt="" src="Check_ring_light.svg" />
+                  									<img className={styles.userIcon1} alt="" src="/image/Check_ring_light.png" />
                   									<div className={styles.accountSettings}>Get Verified</div>
-                  									<img className={styles.expandRightLightIcon7} alt="" src="Expand_right_light.svg" />
+                  									<img className={styles.expandRightLightIcon7} alt="" src="/image/Expand_right_light.png" />
                 								</div>
                 								<div className={styles.groupChild} />
               							</div>
+										  </Link>
               							<div className={styles.frameParent2}>
                 								<div className={styles.userParent}>
-                  									<img className={styles.userIcon1} alt="" src="Sign_in_squre_light.svg" />
+                  									<img className={styles.userIcon1} alt="" src="/image/Sign_in_squre_light.png" />
                   									<div className={styles.accountSettings}>Log Out</div>
-                  									<img className={styles.expandRightLightIcon7} alt="" src="Expand_right_light.svg" />
+                  									<img className={styles.expandRightLightIcon7} alt="" src="/image/Expand_right_light.png" />
                 								</div>
                 								<div className={styles.groupChild} />
               							</div>
@@ -158,10 +190,10 @@ const ProfilInfo = () => {
                         												<div className={styles.claimReward}>12-3459789</div>
                       											</div>
                       											<div className={styles.autyz4pk2snhqtvw7gv61Parent}>
-                        												<img className={styles.autyz4pk2snhqtvw7gv61Icon1} alt="" src="autyz4pk2snhqtvw7gv6 1.png" />
+                        												<img className={styles.autyz4pk2snhqtvw7gv61Icon1} alt="" src="/image/autyz4pk2snhqtvw7gv6 1.png" />
                         												<div className={styles.parent}>
                           													<div className={styles.claimReward}>60+</div>
-                          													<img className={styles.userIcon1} alt="" src="Expand_down_light.svg" />
+                          													<img className={styles.userIcon1} alt="" src="/image/Expand_down_light.png" />
                         												</div>
                       											</div>
                     										</div>
@@ -178,7 +210,7 @@ const ProfilInfo = () => {
                   									</div>
                 								</div>
                 								<div className={styles.button}>
-                  									<div className={styles.claimReward}>Save Changes</div>
+												<button onClick={successful} className={styles.claimReward}>Save Changes</button>
                 								</div>
               							</div>
             						</div>
@@ -186,26 +218,36 @@ const ProfilInfo = () => {
         				</div>
         				<div className={styles.header}>
           					<div className={styles.marketplaceParent}>
-            						<div className={styles.claimReward}>Marketplace</div>
-            						<div className={styles.claimReward}>Game</div>
-            						<div className={styles.claimReward}>FAQ</div>
-            						<div className={styles.selectWalletWrapper}>
-              							<div className={styles.claimReward}>Select Wallet</div>
-            						</div>
+							  <Link href='/MarketPlace'>
+						<div className={styles.conectWallet}>Marketplace</div>
+						</Link>
+						<Link href='/Tetris'>                          
+						<div className={styles.conectWallet}>Game</div>
+						</Link>
+						<Link href='/'>
+						<div className={styles.conectWallet}>FAQ</div>
+						</Link>
+						<div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+        					<WalletMultiButton></WalletMultiButton>
+							</div>     
+							<Link href='/'>
             						<div className={styles.ellipseParent}>
               							<div className={styles.ellipseDiv} />
               							<div className={styles.rectangleDiv} />
             						</div>
+									</Link>
           					</div>
+							<Link href='/'>
           					<b className={styles.tetrasolana1}>
             						<span>Tetra</span>
             						<span className={styles.so}>SO</span>
             						<span>lana</span>
           					</b>
+							  </Link>
           					<div className={styles.search}>
             						<div className={styles.searchChild} />
             						<div className={styles.searchParent}>
-              							<img className={styles.searchIcon1} alt="" src="search.svg" />
+              							<img className={styles.searchIcon1} alt="" src="/image/search.svg" />
               							<div className={styles.claimReward}>Search items and collections</div>
             						</div>
           					</div>
@@ -213,5 +255,5 @@ const ProfilInfo = () => {
       			</div>);
       			};
       			
-      			export default ProfilInfo;
+				  export default dynamic (() => Promise.resolve(ProfilInfo	), {ssr: false} )
       			
