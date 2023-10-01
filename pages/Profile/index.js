@@ -88,9 +88,11 @@ const ProfilInfo = () => {
                   									<div className={styles.action}>
                     										<div className={styles.claimRewardWrapper}>
 															<button onClick={collectReward} className={styles.game}>Claim Reward</button>                    										</div>
-                    										<div className={styles.swapWalletWrapper}>
-                      											<div className={styles.claimReward}>Swap Wallet</div>
-                    										</div>
+                    										<Link href='/Template'>
+              							<div className={styles.swapWalletWrapper}>
+                								<div className={styles.game}>Swap Wallet</div>
+              							</div>
+										  </Link>
                   									</div>
                   									<div className={styles.goldCoinMoneySymbolIconPnParent}>
                     										<img className={styles.goldCoinMoneySymbolIconPn1} alt="" src="/image/gold-coin-money-symbol-icon-png 1.png" />
